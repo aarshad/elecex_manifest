@@ -9,13 +9,14 @@
   <remote fetch="https://github.com/varigit" name="variscite"/>
   <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="git://github.com/meta-qt5" name="QT5"/>
+  <remote fetch="https://github.com/aarshad" name="elecex"/>
 
   <project remote="yocto" revision="8ab3fa375891eba3dc102b6ee7fee3582070654b" upstream="morty"  name="poky" path="sources/poky"/>
   <project remote="yocto" revision="56a1460777d1e24b1dfb426cad2b103740936a83" upstream="morty"  name="meta-freescale" path="sources/meta-freescale"/>
 
   <project remote="oe" revision="fe5c83312de11e80b85680ef237f8acb04b4b26e" upstream="morty" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="variscite" revision="morty" name="variscite-bsp-base" path="sources/base">
+  <project remote="elecex" revision="morty" name="elecex_base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
@@ -26,4 +27,5 @@
   <project remote="OSSystems" revision="7d37ae2adec5cc5ea27367ce125bc7bce2310ca1" upstream="morty" name="meta-browser" path="sources/meta-browser"/>
   <project remote="variscite" revision="f790a721bafb485ac22f193ed80a5e72cbf4b2df" upstream="morty" name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
 
+  <project remote="elecex" revision="master" name="meta-electricity-exchange" path="sources/meta-electricity-exchange"/>
 </manifest>
