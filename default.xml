@@ -10,6 +10,7 @@
   <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="git://github.com/meta-qt5" name="QT5"/>
   <remote fetch="https://github.com/aarshad" name="elecex"/>
+  <remote fetch="https://github.com/imyller" name="imyller"/>
 
   <project remote="yocto" revision="8ab3fa375891eba3dc102b6ee7fee3582070654b" upstream="morty"  name="poky" path="sources/poky"/>
   <project remote="yocto" revision="56a1460777d1e24b1dfb426cad2b103740936a83" upstream="morty"  name="meta-freescale" path="sources/meta-freescale"/>
@@ -28,4 +29,5 @@
   <project remote="variscite" revision="f790a721bafb485ac22f193ed80a5e72cbf4b2df" upstream="morty" name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
 
   <project remote="elecex" revision="master" name="meta-electricity-exchange" path="sources/meta-electricity-exchange"/>
+  <project remote="imyller" upstream="morty" name="meta-nodejs" path="sources/meta-nodejs"/>
 </manifest>
